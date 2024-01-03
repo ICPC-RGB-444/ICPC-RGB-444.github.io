@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    /* justify-content: center; */
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e7e7e7;
+  width: 100%; 
+  padding: 1px 1px;
+}
+.topnav a {
+  float:inline-start;
+  color: #eea048;
+  text-align: center;
+  padding: 14px 24px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: #ec850f;
+}
+.topnav b {
+  float:inline-end;
+  color: #eea048;
+  text-align: center;
+  padding: 14px 24px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav b:hover {
+  background-color: #ddd;
+  color: #ec850f;
+}
+.mainContent {
+  background-color: #f4f4f4;
+  /* height: 90%; */
+  width: 90%;
+  padding: 10px;
+  margin: 30px;
+}
+.left {
+  float:left; 
+  background-color: white;
+  width:30%;
+  border: solid 5px #ec850f;
+  border-radius: 25px;
+}
+.right {
+  float:right; 
+  background-color: white;
+  width:60%;
+  border: solid 5px #ec850f;
+  border-radius: 25px;
+}
+
+</style>
+
+<body>
+
+<div class="topnav">
+  <a href="../index.html">Back to Main Webpage</a>
+  <a href="#">Recipe Maker</a>
+  <a href="#">Calorie Counter</a> 
+  <b href="#">My Account</b>
+</div>
+
+<h1>Recipe Maker</h1>
+
+<div class="mainContent">
+  <!-- ingredients bar -->
+  <div class="left">
+    <h3 align="center">Your Ingredients</p>
+  </div>
+
+  <!-- results bar -->
+  <div class="right">
+    <h3 align="center">Available Recipies</p>
+  </div>
+</div>
+
+</body>
+
+</html>
